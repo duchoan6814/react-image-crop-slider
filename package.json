@@ -1,6 +1,6 @@
 {
   "name": "react-image-crop-slider",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A React component for easy image cropping with a smooth zoom slider.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -27,11 +27,19 @@
     "rollup-plugin-scss": "^3.0.0",
     "sass": "^1.80.6",
     "tslib": "^2.8.1",
-    "typescript": "^5.6.3"
-  },
-  "dependencies": {
-    "react-easy-crop": "^5.1.0",
+    "typescript": "^5.6.3",
     "rollup": "^4.24.4",
     "rollup-plugin-postcss": "^4.0.2"
-  }
+  },
+  "dependencies": {
+    "react-easy-crop": "^5.1.0"
+  },
+  "keywords": [
+    "react",
+    "react-crop-image",
+    "slider",
+    "crop",
+    "react-component",
+    "image"
+  ]
 }
