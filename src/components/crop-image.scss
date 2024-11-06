@@ -1,0 +1,20 @@
+.wrap-crop-image {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &__crop-image {
+    position: relative;
+    flex-grow: 1;
+    min-height: 400px;
+  }
+
+  &__slider {
+    margin-top: 12px;
+    padding: 0 8px;
+    input[type="range"] {
+      width: 100%;
+    }
+  }
+}
