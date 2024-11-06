@@ -2,7 +2,6 @@
 
 `react-image-crop-slider` is a React component that enables users to easily adjust and crop images by using a slider to zoom in or out for precise alignment and cropping. This component is particularly useful for applications where users upload and align images before use.
 
-
 ![Frontend_System_Design_Questions__Toast_Component___HLD_LLD](https://github.com/duchoan6814/react-image-crop-slider/blob/main/asset/ScreenRecording2024-11-06at14.24.16-ezgif.com-video-to-gif-converter.gif)
 
 ## Features
@@ -25,12 +24,19 @@ Or
 yarn add react-image-crop-slider
 ```
 
+Add style of component
+
+```jsx
+import "react-image-crop-slider/dist/index.css";
+```
+
 ## Usage
 
 Below is a basic example of how to use `react-image-crop-slider`:
 
 ```tsx
 import React, { useState } from "react";
+import "react-image-crop-slider/dist/index.css";
 import { CropImageWrapper, CropImage } from "react-image-crop-slider";
 
 const App = () => {
