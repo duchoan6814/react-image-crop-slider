@@ -5,12 +5,16 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duchoan6814/react-image-crop-slider.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-node-resolve": "^15.3.0",
