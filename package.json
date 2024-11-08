@@ -1,6 +1,6 @@
 {
   "name": "react-image-crop-slider",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A React component for easy image cropping with a smooth zoom slider.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
